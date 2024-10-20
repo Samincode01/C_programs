@@ -4,7 +4,7 @@ int main()
 {
    int x,y,result;
    char operator;
-   printf("==Welcome to Simple_Calculaor v2.00 by Samincode01== \n");
+   printf("==Welcome to Simple_Calculator v2.00 by Samincode01== \n");
    printf("Input X= ");
    
    if (scanf("%d", &x) != 1) 
