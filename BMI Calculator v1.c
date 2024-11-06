@@ -17,22 +17,24 @@ int main() {
         printf("Enter weight(KG): ");
         scanf("%f", &weight);
         bmi= weight / (height * height);
-    }
+    
        if (bmi < 18.5)
-            printf("You are Underweight. Your BMI is= %.2f", bmi);
+            printf("You are Underweight. Your BMI is= %.2f\n", bmi);
         else if (bmi >= 18.5 && bmi < 24.9)
-            printf("You are Normal wight. Your BMI is= %.2f", bmi);
+            printf("You are Normal wight. Your BMI is= %.2f\n", bmi);
         else if (bmi >= 25 && bmi < 29.9)
-            printf("You are Overweight. Your BMI is= %.2f", bmi);
+            printf("You are Overweight. Your BMI is= %.2f\n", bmi);
         else
-            printf("You are Obese. Your BMI is= %.2f", bmi);
-    printf("====BMI CHART====\n");
+            printf("You are Obese. Your BMI is= %.2f\n", bmi);
+    printf("============BMI CHART============\n");
     printf("Underweight: BMI < 18.5\n");
     printf("Normal weight: BMI 18.5 - 24.9\n");
     printf("Overweight: BMI 25 - 29.9\n");
     printf("Obese: BMI ≥ 30\n");
+
+}
 else
- printf("Under 18 has difference based on age and gender. It has some pecentage");
+ printf("BMI interpretation for children is based on age and gender percentiles.");
     return 0;
 
 }
