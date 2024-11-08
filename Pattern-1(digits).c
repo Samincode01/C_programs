@@ -7,7 +7,7 @@
 int main() 
 {
     int n,row,col;
-     printf("===Pattern Maker (Digits)=== \n");
+     printf("===Pattern Maker (Digits) === \n");
     printf("input N= ");
     scanf("%d", &n);
 for(row=1;row<=n;row++)
