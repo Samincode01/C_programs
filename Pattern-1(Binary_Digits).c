@@ -7,7 +7,7 @@
 int main() 
 {
     int n,row,col;
-    printf("===Pattern Maker(Binary_digits) === \n");
+    printf("===Pattern Maker(Binary_digits)=== \n");
     printf("input N= ");
     scanf("%d", &n);
 for(row=1;row<=n;row++)
