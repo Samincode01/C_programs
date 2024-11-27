@@ -31,7 +31,7 @@ for(int i=0; i<rows; i++)
     }
     printf("\n");
 }
-//Sum of diagonal elements
+//Sum of non diagonal elements
 int sumofnonDiagonalElements=0;
 for(int i=0; i<rows;i++)
 {
