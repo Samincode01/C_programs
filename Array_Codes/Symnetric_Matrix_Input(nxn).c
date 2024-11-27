@@ -6,7 +6,7 @@ printf("Enter the number of rows and columns: ");
 scanf("%d %d", &rows, &columns);
 if(rows!=columns)
 {
-    printf("The Matrix is not symetrix");
+    printf("The Matrix is not symnetrix");
     return 0;
 }
 int matrix[rows][columns],Transpose[columns][rows] ;
@@ -37,12 +37,12 @@ for(int i=0; i<rows; i++)
     {
         if(matrix[i][j]!=matrix[j][i])
         {
-            printf("The Matrix is not symetrix");
+            printf("The Matrix is not symnetrix");
             return 0;
         }
         printf("\n");
     }
-    printf("The Matrix is symetrix");
+    printf("The Matrix is symnetrix");
     return 0;
 }
 
