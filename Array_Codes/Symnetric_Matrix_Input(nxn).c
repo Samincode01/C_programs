@@ -11,8 +11,6 @@ if(rows!=columns)
 }
 int matrix[rows][columns],Transpose[columns][rows] ;
 printf("Enter the elements of the matrix: \n");
-
-
 for(int i=0; i<rows; i++)
 {
     for(int j=0; j<columns; j++)
