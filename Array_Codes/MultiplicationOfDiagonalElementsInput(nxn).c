@@ -42,9 +42,9 @@ for(int i=0; i<rows;i++)
            MultiplicationDiagonalElements*=matrix[i][j];
         }
     }
-    printf("Multiplication of Diagonal Elements= %d", MultiplicationDiagonalElements);
-    return 0;
-}
+} 
+printf("Multiplication of Diagonal Elements= %d", MultiplicationDiagonalElements);
+return 0;
 }    
     
     
