@@ -31,7 +31,7 @@ for(int i=0; i<rows; i++)
     }
     printf("\n");
 }
-//Sum of diagonal elements
+//Multiplication of diagonal elements
 int MultiplicationDiagonalElements=1;
 for(int i=0; i<rows;i++)
 {
