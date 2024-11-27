@@ -21,8 +21,7 @@ for(int i=0; i<rows; i++)
         scanf("%d", &matrix[i][j]);
     }
 }
- printf("The Matrix is:\n");
- 
+ printf("The Matrix is:\n"); 
 for(int i=0; i<rows; i++)
 {
     for(int j=0; j<columns; j++)
