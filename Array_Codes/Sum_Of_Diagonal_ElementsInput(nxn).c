@@ -42,9 +42,9 @@ for(int i=0; i<rows;i++)
            sumofDiagonalElements+=matrix[i][j];
         }
     }
-    printf("Sum of Diagonal Elements= %d", sumofDiagonalElements);
-    return 0;
 }
+            printf("Sum of Diagonal Elements= %d", sumofDiagonalElements);
+            return 0;
 }    
     
     
