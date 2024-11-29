@@ -1,3 +1,4 @@
+//string making basics
 #include <stdio.h>
 
 int main() {
@@ -14,7 +15,7 @@ int main() {
     
     // Print the resulting string
     printf("name = %s\n", name);
-    char name2[] = "xyz22";  // Automatically allocates enough space for the string and null terminator
+    char name2[] = "newname9";  // Automatically allocates enough space for the string and null terminator
     printf("name2 = %s\n", name2);
     return 0;
 }
