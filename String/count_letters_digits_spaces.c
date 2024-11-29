@@ -15,7 +15,7 @@ int main() {
                       {
                           numberofLetters++;
                       }
-               if((currentcharacter >= '0')|| (currentcharacter <= '9'))
+               if((currentcharacter >= '0') && (currentcharacter <= '9'))
                       {
                           numberofDigits++;
                       }
