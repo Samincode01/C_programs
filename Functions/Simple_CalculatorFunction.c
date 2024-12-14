@@ -12,7 +12,7 @@ int multi(int num1, int num2)
 {
     return num1 * num2;
 }
-int divi(int num1, int num2)
+double divi(int num1, int num2)
 {
     return num1 / num2;
 }
@@ -45,7 +45,7 @@ int main() {
         printf("Result= %d\n", multi(num1,num2));
         break;
         case 4:
-        printf("Result= %d\n", divi(num1,num2));
+        printf("Result= %.2lf\n", divi(num1,num2));
         break;
         
     }
