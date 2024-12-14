@@ -1,6 +1,4 @@
-// Online C compiler to run C program online
 #include <stdio.h>
-
 //Funtion to print array
 void printArray(int numbers[], int size)
 {
