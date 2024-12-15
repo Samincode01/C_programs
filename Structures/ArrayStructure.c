@@ -21,7 +21,7 @@ int main()
     }
     for (i=0; i<4; i++)
     {
-        printf("Information for person %d\n:", i+1);
+        printf("Information for person %d:\n", i+1);
         printf("Age = %d\n", person[i].age);
         printf("Salary = %f\n", person[i].salary);
         
