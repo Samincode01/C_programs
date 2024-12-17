@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 // Define enum for traffic light states
 enum TrafficLight {
     Red,    // 0
