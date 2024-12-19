@@ -23,6 +23,8 @@ int main()
         {
            printf("Enter Student Name: ");
            fgets(name, sizeof(name), stdin);
+           // Remove the trailing newline character
+           name[strcspn(name, "\n")] = '\0';
            printf("Enter Student Age: ");
            scanf("%d", &age);
            printf("Enter Student Phone Number: ");
